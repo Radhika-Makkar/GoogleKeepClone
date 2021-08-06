@@ -1,0 +1,111 @@
+.navbar{
+    background-color: rgb(207, 207, 52);
+}
+body{
+    background-color: rgb(245, 237, 237)!important;
+}
+#add{
+    position:absolute;
+    right:20px;
+    top:80px;
+    display:flex;
+}
+  .button {
+    width: 130px;
+    height: 30px;
+    display: block;
+  }
+
+  #add{
+    background: linear-gradient(to right, rgb(207, 207, 52) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    border-radius: 50%;
+    padding:7px;
+  }
+
+  #add:hover {
+    background-position: left bottom;
+    border-radius: 50%;
+  }
+  .icon{
+      position:absolute;
+      left:7%;
+top:18%;
+margin-left: 1%;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px; 
+    color: black;
+    transition: all .6s ease-out;
+    display: block;
+  }
+  
+  .text:hover {
+    color: white;  
+  }
+.note{
+    margin:5% 0% 0% 2%;
+    height:30vh;
+    width:30vw;
+    background-color: white;
+    border-radius:5%;
+}
+
+.edit{
+    border:none;
+    background-color: green;
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    color:white;
+}
+
+.delete{
+    border:none;
+    background-color: red;
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    color:white
+}
+.edit:hover{
+    background-color: white;
+    color:green;
+}
+.delete:hover{
+    background-color: white;
+    color:red
+}
+
+.operation{
+    text-align:right;
+    padding:10px;
+}
+textarea{
+    border:none;
+    background-color: rgb(245, 237, 237)!important;
+    margin-left: 10px !important;
+}
+.main{
+    margin-left: 10px !important;
+}
+.hidden{
+    display:none;
+}
+#main-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:50px;
+}
+a{
+    font-size:2vw;
+}
+
+.text1{
+  font-size:2vw
+}
